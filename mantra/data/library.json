@@ -22,15 +22,15 @@
     "fuente": "Ṛg Veda 3.62.10"
   },
   {
-    "id": "ganapati-atharvashirsha",
-    "tipo": "himno",
-    "titulo": "Ganapati Atharvaśīrṣa",
-    "texto": "Om namaste gaṇapataye tvameva pratyakṣaṃ tattvamasi... (fragmento)",
+    "id": "Om namaḥ śivāya",
+    "tipo": "mantra",
+    "titulo": "Om namaḥ śivāya",
+    "texto": "Om namaḥ śivāya",
     "idioma": "Sánscrito",
-    "devanagari": "ओṃ नमस्ते गणपतये त्वमेव प्रत्यक्षं तत्त्वमसि ...",
-    "significado": "Saludo a Gaṇeśa; tú eres la realidad suprema manifestada.",
-    "etiquetas": ["devoción", "sabiduría"],
-    "fuente": "Atharva Veda"
+    "devanagari": "ॐ नमः शिवाय",
+    "significado": "Me inclino ante Śiva, conciencia pura; invoca purificación y transformación.",
+    "etiquetas": ["protección", "transformación"],
+    "fuente": "Ṛg Veda"
   },
   {
     "id": "yoga-sutra-1",
@@ -42,5 +42,16 @@
     "significado": "Ahora, la enseñanza del Yoga.",
     "etiquetas": ["sutra", "asana", "teoría"],
     "fuente": "Patañjali"
+  },
+  {
+    "id": "Mā",
+    "tipo": "mantra",
+    "titulo": "Mā",
+    "texto": "Mā",
+    "idioma": "Sánscrito",
+    "devanagari": "म",
+    "significado": "Sílaba relacionada con la madre universal, la energía de nutrición, contención y compasión.",
+    "etiquetas": ["cuidado", "amor primordial"],
+    "fuente": "Yoga"
   }
 ]

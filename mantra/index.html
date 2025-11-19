@@ -291,21 +291,25 @@
         .trim();
     }
 
-    function popularUI() {
-      sugerencias.innerHTML = '';
-      ejemplos.innerHTML = '';
-      biblioteca.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item.titulo;
-        sugerencias.appendChild(option);
+ function popularUI() {
+  sugerencias.innerHTML = '';
+  ejemplos.innerHTML = '';
 
-        const chip = document.createElement('button');
-        chip.type = 'button';
-        chip.className = 'pill';
-        chip.textContent = item.titulo;
-        chip.addEventListener('click', () => mostrarDetalle(item.titulo));
-        ejemplos.appendChild(chip);
-      });
+  biblioteca.slice(0, 3).forEach(item => {
+    const option = document.createElement('option');
+    option.value = item.titulo;
+    sugerencias.appendChild(option);
+
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'pill';
+    chip.textContent = item.titulo;
+    chip.addEventListener('click', () => mostrarDetalle(item.titulo));
+    ejemplos.appendChild(chip);
+  });
+
+  renderColeccion();
+}
 
      // renderColeccion();
     }

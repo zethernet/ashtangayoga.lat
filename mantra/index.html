@@ -356,9 +356,9 @@
           <div class="label">${item.tipo}</div>
           <h2>${item.titulo}</h2>
           <p class="texto">${item.texto}</p>
-          <p class="meta">${item.idioma}</p><p class="devanagari">${item.devanagari}</p>
+          <p class="devanagari">Sánscrito: ${item.devanagari}</p>
           <p class="texto"><strong>Significado:</strong> ${item.significado}</p>
-          <p class="meta">· Fuente: ${item.fuente}</p>
+          <p class="meta">Fuente: ${item.fuente}</p>
           <div class="etiquetas">${item.etiquetas.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
           <div class="actions">
             <button id="copiar">Copiar</button>

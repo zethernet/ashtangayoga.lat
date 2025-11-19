@@ -1,5 +1,16 @@
 [
   {
+    "id": "OM",
+    "tipo": "mantra",
+    "titulo": "AUM/OM",
+    "texto": "OM",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ",
+    "significado": "Sonido primordial; evoca la totalidad: creación, preservación y transformación.",
+    "etiquetas": ["universal", "equilibrio"],
+    "fuente": "Ṛg Veda"
+  },
+  {
     "id": "gayatri-mantra",
     "tipo": "mantra",
     "titulo": "Gayatri Mantra",
@@ -9,17 +20,6 @@
     "significado": "Meditamos en la luz del Sol divino; que esa sabiduría ilumine nuestro entendimiento.",
     "etiquetas": ["luz", "sabiduría"],
     "fuente": "Ṛg Veda 3.62.10"
-  },
-  {
-    "id": "maha-mrtyunjaya",
-    "tipo": "mantra",
-    "titulo": "Mahā Mrtyuñjaya Mantra",
-    "texto": "Om tryambakaṃ yajāmahe sugandhiṃ puṣṭi-vardhanam, urvārukam iva bandhanān mṛtyor mukṣīya mā'mṛtāt.",
-    "idioma": "Sánscrito",
-    "devanagari": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥",
-    "significado": "Meditamos en el de Tres Ojos, fragante y sustentador; libéranos de la muerte como el pepino se desprende de su tallo, mas no de la inmortalidad.",
-    "etiquetas": ["sanación", "protección"],
-    "fuente": "Ṛg Veda 7.59.12"
   },
   {
     "id": "ganapati-atharvashirsha",

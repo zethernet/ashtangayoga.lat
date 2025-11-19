@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca de Mantras y Yoga</title>
+  <title>Biblioteca de Mantras</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -234,8 +234,8 @@
     <header>
       <div class="avatar">ॐ</div>
       <div>
-        <h1>Biblioteca de mantras, himnos y sutras</h1>
-        <p class="lead">Busca y comparte textos sagrados de Yoga usando datos en JSON. La colección crecerá con tus aportes.</p>
+        <h1>Biblioteca de mantras</h1>
+        <p class="lead">Busca y comparte mantras sagrados de Yoga.</p>
       </div>
     </header>
 
@@ -243,7 +243,7 @@
       <div class="label">Buscador</div>
       <div class="search-row">
         <form id="search-form" style="display: contents;">
-          <input type="search" id="search-input" list="sugerencias" placeholder="Ejemplo: Gayatri Mantra" autocomplete="off" required>
+          <input type="search" id="search-input" list="sugerencias" placeholder="Ejemplo: Gayatri" autocomplete="off" required>
           <datalist id="sugerencias"></datalist>
         </form>
         <button id="buscar-btn" type="button">Buscar mantra</button>
@@ -255,7 +255,7 @@
     <section id="resultado"></section>
 
     <section>
-      <div class="label">Colección inicial (JSON)</div>
+      <div class="label">Colección inicial</div>
       <div class="grid" id="coleccion"></div>
     </section>
   </main>
@@ -328,7 +328,7 @@
     function mostrarDetalle(busqueda) {
       const query = normalizarTexto(busqueda);
       if (!query) {
-        resultado.innerHTML = `<p class="empty">Escribe el nombre de un mantra, himno o sutra.</p>`;
+        resultado.innerHTML = `<p class="empty">Escribe el nombre de un mantra.</p>`;
         return;
       }
 

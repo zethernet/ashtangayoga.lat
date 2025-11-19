@@ -33,15 +33,15 @@
     "fuente": "Ṛg Veda"
   },
   {
-    "id": "yoga-sutra-1",
-    "tipo": "sutra",
-    "titulo": "Yoga Sūtra 1.1",
-    "texto": "atha yoga-anuśāsanam",
+    "id": "Jay Hanuman",
+    "tipo": "mantra",
+    "titulo": "Jay Hanuman",
+    "texto": "Jay Hanuman, Jay Sita Rām",
     "idioma": "Sánscrito",
-    "devanagari": "अथ योगानुशासनम्",
-    "significado": "Ahora, la enseñanza del Yoga.",
-    "etiquetas": ["sutra", "asana", "teoría"],
-    "fuente": "Patañjali"
+    "devanagari": "जय हनुमान, जय सीताराम्",
+    "significado": "Honra simultáneamente la fuerza espiritual y el amor, compasión y Dharma.",
+    "etiquetas": ["apertura del corazón", "alegría interna"],
+    "fuente": "Yoga"
   },
   {
     "id": "Mā",

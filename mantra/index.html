@@ -295,7 +295,7 @@
   sugerencias.innerHTML = '';
   ejemplos.innerHTML = '';
 
-  biblioteca.slice(0, 3).forEach(item => {
+  biblioteca.forEach(item => {
     const option = document.createElement('option');
     option.value = item.titulo;
     sugerencias.appendChild(option);
@@ -305,11 +305,11 @@
     chip.className = 'pill';
     chip.textContent = item.titulo;
     chip.addEventListener('click', () => mostrarDetalle(item.titulo));
-    ejemplos.appendChild(chip);
+    ejemplos.appendChild(chip).slice(0,3);
   });
 }
 
-     renderColeccion();
+    // renderColeccion();
     }
 
     function renderColeccion() {

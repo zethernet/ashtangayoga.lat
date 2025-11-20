@@ -75,5 +75,16 @@
     "significado": "¡Victoria a Ma Durga, la Madre del Mundo!.",
     "etiquetas": ["protección", "poder creativo"],
     "fuente": "Yoga"
+  },
+ {
+    "id": "Kundalini Shakti",
+    "tipo": "mantra",
+    "titulo": "Kundalini Shakti",
+    "texto": "Om Shakti Ma\nKundalini Shakti Ma\n\nJaya Matakali Namaha\nKalidevi Kalidurgue Namaha",
+    "idioma": "Sánscrito",
+    "devanagari": "कुण्डलिनी शक्ति",
+    "significado": "se refiere a la invocación del poder primordial y la energía creadora, personificada como la Divina Madre o Shakti",
+    "etiquetas": ["energia primordial", "poder creativo"],
+    "fuente": "Yoga"
   }
 ]

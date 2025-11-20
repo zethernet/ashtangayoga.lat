@@ -64,5 +64,17 @@
     "significado": "Canto devocional que honra a Hanuman, la encarnación de la energía del coraje, la sabiduría y la impecable entrega al Dharma.",
     "etiquetas": ["devoción", "fortaleza", "conocimiento"],
     "fuente": "Yoga"
-  }
+  },
+  {
+    "id": "Ma Durga",
+    "tipo": "mantra",
+    "titulo": "Ma Durga",
+    "texto": "Hey! Ma Durga, Hey! Ma Durga\n\nJaya Jagatambe, Jaya Jaya Jagatambe\n\nHey! Ma Durga, Hey! Ma Durga\n",
+    "idioma": "Sánscrito",
+    "devanagari": "माँ दुर्गा",
+    "significado": "¡Victoria a Ma Durga, la Madre del Mundo!.",
+    "etiquetas": ["protección", "poder creativo"],
+    "fuente": "Yoga"
+  },
+  
 ]

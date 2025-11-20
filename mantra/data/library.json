@@ -86,5 +86,17 @@
     "significado": "se refiere a la invocación del poder primordial y la energía creadora, personificada como la Divina Madre o Shakti",
     "etiquetas": ["energia primordial", "poder creativo"],
     "fuente": "Yoga"
+  },
+ {
+    "id": "Om Ganesha",
+    "tipo": "mantra",
+    "titulo": "Om Ganesha",
+    "texto": "Om Ganesha Om Ganapati Om",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ गं गणपतये नमः",
+    "significado": "Mis saludos al Señor Ganesha.",
+    "etiquetas": ["vencer obstáculos", "protección"],
+    "fuente": "Yoga"
   }
+
 ]

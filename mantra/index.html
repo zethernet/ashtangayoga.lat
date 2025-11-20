@@ -294,7 +294,7 @@
    function popularUI() {
       sugerencias.innerHTML = '';
       ejemplos.innerHTML = '';
-      biblioteca.forEach(item => {
+      biblioteca.slice(0,3).forEach(item => {
         const option = document.createElement('option');
         option.value = item.titulo;
         sugerencias.appendChild(option);
